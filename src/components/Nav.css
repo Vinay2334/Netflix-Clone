@@ -8,7 +8,7 @@
 
     /* Animations */
     transition-timing-function: ease-in;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 .nav_contents{
@@ -16,7 +16,7 @@
     justify-content: space-between;
 }
 .nav_black{
-    background-color: black;
+    background-color: rgb(30, 28, 28);
 }
 .nav_logo{
     position: fixed;

@@ -25,7 +25,7 @@ function Banner() {
    
   return (
     <header className='banner' style={{
-      backgroundSize: "cover",
+      backgroundSize: "100% 100%",
       backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
       backgroundPosition: "center center",
     }}>
@@ -37,7 +37,7 @@ function Banner() {
           <button className='banner_button'>Play</button>
           <button className='banner_button'>MyList</button>
         </div>
-        <h1 className="banner_description">{truncate(movie?.overview,150)}</h1>
+        <h1 className="banner_description">{truncate(movie?.overview,300)}</h1>
       </div>
 
       <div className="banner--fadeBottom"></div>
